@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Secrets — your META_ACCESS_TOKEN lives here. Never commit it.
+.claude/settings.local.json
+.env
+.env.*
+
+# Generated output (keep the README)
+outputs/generated-assets/*
+!outputs/generated-assets/README.md
+
+# Python
+__pycache__/
+*.pyc
+
+# --- Optional: uncomment to keep your brand files out of a public fork ---
+# reference/meta-ads-config.json
+# reference/gws-config.json
+# reference/products/Images/*/
+# reference/design-assets/*.png
+# reference/design-assets/*.jpg
+# context/*.md

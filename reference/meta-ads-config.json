@@ -1,0 +1,27 @@
+{
+  "_comment": "Filled in by /onboard. Read by the meta-ads-campaign-setup skill. Values wrapped in {{ }} are unfilled placeholders. The Meta access token does NOT go here; it lives in .claude/settings.local.json (git-ignored).",
+
+  "brand_name": "{{BRAND_NAME}}",
+  "ad_account_id": "{{AD_ACCOUNT_ID_DIGITS_ONLY_NO_act_PREFIX}}",
+  "ad_account_name": "{{AD_ACCOUNT_NAME}}",
+  "pixel_id": "{{PIXEL_ID}}",
+  "page_id": "{{FACEBOOK_PAGE_ID}}",
+
+  "currency": "{{CURRENCY_CODE_E.G._USD}}",
+  "currency_symbol": "{{CURRENCY_SYMBOL_E.G._$}}",
+  "budget_per_creative_daily": 10,
+
+  "conversion_event": "Purchase",
+  "attribution": "7-day click, 1-day view",
+  "countries": ["{{ISO_COUNTRY_CODE_E.G._US}}"],
+
+  "website_domain": "{{yourbrand.com}}",
+  "display_link": "{{yourbrand.com}}",
+  "campaign_name_prefix": "{{BRAND_NAME}}",
+  "cta_type": "SHOP_NOW",
+
+  "landing_pages": {
+    "default": "https://{{yourbrand.com}}/",
+    "{{product-folder-name-or-concept-type}}": "https://{{yourbrand.com}}/products/{{product-handle}}"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "spreadsheet_id": "{{GOOGLE_SHEET_ID}}",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/{{GOOGLE_SHEET_ID}}/edit",
+  "tabs": {
+    "creative_generations": "Creative Generations",
+    "ad_inspiration": "Ad Inspiration"
+  },
+  "drive_folder_id": "{{DRIVE_GENERATED_ASSETS_FOLDER_ID}}",
+  "drive_folder_url": "https://drive.google.com/drive/folders/{{DRIVE_GENERATED_ASSETS_FOLDER_ID}}",
+  "ad_inspiration_folder_id": "{{DRIVE_AD_INSPIRATION_FOLDER_ID}}",
+  "ad_inspiration_folder_url": "https://drive.google.com/drive/folders/{{DRIVE_AD_INSPIRATION_FOLDER_ID}}"
+}
